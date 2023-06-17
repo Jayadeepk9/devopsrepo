@@ -11,9 +11,9 @@ provider "azurerm" {
 
 terraform {
   backend "azurerm" {
-    storage_account_name = "ewiruepr"
-    container_name       = "testc1"
+    storage_account_name = "build-rg"
+    container_name       = "container1"
     key                  = "dev.tfstate"
-    access_key = "kn2DZ0K/ZFoDiDfeBFXiEYwlFBHlrtDZnj1Jr9OZpSnalzQsvnDiaz08gral/qdsa5dyweXJhHM0+AStGB6igQ=="
+    access_key = "JiDSBxUxsTCxjsbl/6WolNPUiBg5kmdHV+aVxtJ6+1tcbOHS8iSCiq9HxrEdndtYM8WCKe/Ydi6j+ASt51HFVw=="
   }
 }
